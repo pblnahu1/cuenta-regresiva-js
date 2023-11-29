@@ -37,3 +37,23 @@ body{
 .tiempo p{
     font-size: 20px;
 }
+
+button{
+    padding: 13px 40px;
+    margin: 20px;
+    border: none;
+    border-radius: 32px;
+    background-color: rgb(255, 255, 255)2c2;
+    color: #3a3842;
+    text-transform: uppercase;
+    font-weight: 800;
+    cursor: pointer;
+    transition: background 0.5s ease;
+    transition: box-shadow 0.5s ease;
+}
+
+button:hover{
+    background-color: thistle;
+    color: indigo;
+    box-shadow: 0 0 10px thistle;
+}
